@@ -83,7 +83,7 @@ export default {
   async created () {
     const {
       Heading, Bold, Italic, Strike, Underline, Code, CodeBlock, Paragraph, BulletList, OrderedList, ListItem,
-      Link, Blockquote, HardBreak, HorizontalRule, History, Image, TodoList, TodoItem, Table, TableCell, TableHeader,
+      Link, Blockquote, HardBreak, HorizontalRule, History, TodoList, TodoItem, Table, TableCell, TableHeader,
       TableRow
     } = await MAIN_MODULE
 
@@ -115,11 +115,6 @@ export default {
       ListItem, // если нужно использовать список (BulletList, OrderedList)
       BulletList,
       OrderedList,
-      [Image, {
-        options: {
-          imageSources: [{ component: FileSelector, name: 'File Selector' }]
-        }
-      }],
       [Heading, {
         // Опции которые попадают в расширение tiptap
         options: {
