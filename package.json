@@ -73,10 +73,6 @@
     "vue-template-compiler": "^2.6.10",
     "vuetify": "^2.1.1"
   },
-  "peerDependencies": {
-    "vue": "^2.0.0",
-    "vuetify": "^2.0.0"
-  },
   "keywords": [
     "editor",
     "vuetify",
